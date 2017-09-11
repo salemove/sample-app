@@ -1,0 +1,53 @@
+sm-engaged-operator {
+  display: block;
+  width: 270px;
+  height: 207px;
+  margin: 0 auto;
+}
+
+sm-engaged-operator .sm-engaged-operator-media {
+  width: 270px !important;
+  height: 203px !important;
+}
+
+sm-engaged-operator .sm-engaged-operator,
+sm-engaged-operator .sm-volume-meter-container,
+sm-engaged-operator .sm-engaged-operator-name {
+  display: none;
+}
+
+sm-engaged-operator .sm-engaged-operator.sm-engaged-operator-video {
+  display: block;
+}
+
+.talk-to-human {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  width: 270px;
+  height: 4.5em;
+  letter-spacing: 2px;
+  line-height: 4.5em;
+  border-radius: 2px;
+  backface-visibility: hidden;
+  cursor: pointer;
+  background-color: #4382e7;
+  color: #FFFFFF;
+  text-shadow: 0 1px 1px #2658A9;
+  padding-right: 70px;
+}
+
+.talk-to-human:before {
+  background-image: linear-gradient(45deg, #2658A9 0%, #2C6ACE 50%, #3572D2 50%, #4382e7);
+  content: "\279C";
+  font-size: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 70px;
+  border-radius: 0 2px 2px 0;
+}
